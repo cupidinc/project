@@ -1,0 +1,50 @@
+html {
+  box-sizing: border-box;
+}
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  width: 100%;
+}
+header {
+  background-color: lightblue;
+  padding-top: 1px;
+}
+h1 {
+  text-align: center;
+  padding-top: 15px;
+  color: gray;
+}
+li {
+  list-style-type: none;
+}
+button {
+  background-color: lightblue !important;
+}
+.zz:hover {
+  background-color: tomato !important;
+  text-decoration: overline;
+}
+.mm {
+  text-decoration: none;
+}
+main {
+  padding: 10px;
+}
+img {
+  padding: 5px;
+}
+footer {
+  background-color: lightblue;
+  padding: 10px;
+}
+.jj:hover {
+  background-color: lightblue;
+}
+.m {
+  list-style-type: disc;
+}
+.f {
+  position: absolute;
+  bottom: 0;
+  width: 100;
+}

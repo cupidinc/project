@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/images/icon.jfif">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/w3.css" />
+    <link
+      rel="stylesheet"
+      href="/fontawesome-free-5.15.3-web/fontawesome-free-5.15.3-web/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/css/contact.css" />
+    <link rel="stylesheet" href="/css/index.css">
+  </head>
+  <body>
+    <header>
+        <div >
+          <!-- <img style="float: left; margin-right: 0;" width="100px" src="/images/icon.jfif" alt=""> -->
+          <a class="mm" href="/html/index.html">
+            <h1>  Mellavin Engineering Company Limited</h1></a
+          >
+          <div class="w3-bar w3-container">
+            <ul style="padding-left: 100px;">
+              <li>
+                <a href="/html/index.html" class="w3-bar-item w3-button w3-mobile zz">Home</a>
+              </li>
+              <li>
+                <div class="w3-dropdown-hover w3-mobile zz">
+                  <button class="w3-button zz"><a  class="mm" href="/html/about us.html">About Us</a></button>
+                  <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                    <a href="/html/about us.html" id="#Our Vision & Mission" class="w3-bar-item w3-button zz">Our Vision & Mission</a>
+                    <a href="/html/mellavin-Our team.html" id="#Our Team" class="w3-bar-item w3-button zz">Our Team</a>
+                    <a href="/html/about us.html" id="#Our Client" class="w3-bar-item w3-button zz">Our Client</a>
+                  </div>
+              </li>
+              <li>
+                <div class="w3-dropdown-hover w3-mobile zz">
+                <button class="w3-button zz"><a class="mm" href="/html/our services.html">Our Services</a></button>
+                <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                  <a href="/html/our services.html" id="#" class="w3-bar-item w3-button zz">Installation</a>
+                  <a href="/html/our services.html" id="#" class="w3-bar-item w3-button zz">Fabrication & Supplies</a>
+                </div>
+                </div>
+              </li>
+              <li>
+                <a href="contact us.html
+                " class="w3-bar-item w3-button w3-mobile zz">Contact Us</a>
+              </li>
+            </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+    <form id="regForm" action="">
+      <h1>Contact Us</h1>
+
+      <!-- One "tab" for each step in the form: -->
+      <div class="tab">
+        Name:
+        <p>
+          <input placeholder="First name..." oninput="this.className = ''" />
+        </p>
+        <p>
+          <input placeholder="Last name..." oninput="this.className = ''" />
+        </p>
+      </div>
+
+      <div class="tab">
+        Contact Info:
+        <p><input type="email" placeholder="E-mail" oninput="this.className = ''" /></p>
+        <p><input type="tel" placeholder="Phone" oninput="this.className = ''" /></p>
+      </div>
+
+      <div class="tab">
+       Message:
+        <p> <textarea name="" id="" cols="30" rows="10" oninput="this.className = ''"></textarea>  
+        <p><input placeholder="Additional Details" oninput="this.className = ''" /></p>
+      </div>
+
+      <div style="overflow: auto">
+        <div style="float: right">
+          <button type="button" id="prevBtn" onclick="nextPrev(-1)">
+            Previous
+          </button>
+          <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
+        </div>
+      </div>
+
+      <!-- Circles which indicates the steps of the form: -->
+      <div style="text-align: center; margin-top: 40px">
+        <span class="step"></span>
+        <span class="step"></span>
+        <span class="step"></span>
+      </div>
+    </form>
+    <footer>
+        <div>
+       <div class="fas fa-envelope"> <a href="info@mellavin.com">info@mellavin.com</a></div>
+      </div>
+      <div>
+       <div class="fas fa-phone-alt"> 01 - 804 2731,
+        0803 381 2928,
+        0802 303 7590</div>
+      </div>
+      <div>
+        <div class="fab fa-instagram-square"><a class="mm" href="www.instagram.com/cupid_inc"> cupid_inc</a></div>
+      </div>
+      <div>
+        <div class="fas fa-map-marker-alt"> <a target="_blank" href="https://goo.gl/maps/ZzSWt6fAaguf8Gvj8">32 (83) Funsho Williams Avenue,
+          (Opp. Abalti Barracks), Surulere</a> </div>
+      </div>
+      </footer>
+    <script src="/js/mellavin.js"></script>
+  </body>
+</html>
